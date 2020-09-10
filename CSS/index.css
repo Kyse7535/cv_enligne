@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    font-family: 'Poppins';
+    min-width: 450px;
+}
+
+.navbar {
+    background-color: #ce93d8;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    padding: 3px 15px;
+}
+
+header .ligne {
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+}
+
+header ul {
+    margin: 0;
+}
+
+header a {
+    color: #fff;
+    padding: 2px 0;
+}
+
+header a:hover {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+header a:focus {
+    border-bottom: 3px solid #fff;
+}
+
+main .ombre {
+    background: url(./code.jpg) center no-repeat;
+    background-size: cover;
+}
+
+main .image {
+    height: 400px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+main .image h4 {
+    text-align: center;
+}
+
+main li {
+    list-style: none;
+}
+
+main .text h1 {
+    font-weight: bold;
+    font-size: 4vw;
+    text-transform: uppercase;
+    background-color: rgba(206, 147, 216, 0.5);
+    padding: 8px 35px;
+    letter-spacing: 3px;
+}
+
+main .text h4 {
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 2vw;
+}
+
+main h2 {
+    color: #e1bee7;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    font-size: 4vw;
+}
+
+main .presentation {
+    padding: 2% 5%;
+    background-color: #f3e5f5;
+    color: rgb(94, 93, 93);
+}
+
+main .experience,
+.formation,
+.competence,
+.contact {
+    padding: 2% 5%;
+}
+
+main .experience li,
+.formation li,
+main .competence li {
+    color: rgb(94, 93, 93);
+    padding: 1% 0;
+}
+
+main .experience span,
+.formation span {
+    font-weight: bold;
+}
+
+main .competence {
+    background-color: rgba(74, 20, 140, 0.5);
+    width: 100%;
+}
+
+main .ombre2 {
+    background: url(./startup.jpg) center no-repeat;
+    background-size: cover;
+}
+
+main .competence ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .competence li {
+    padding: 5px 20px;
+    margin: 1% 0;
+    background-color: #ba68c8;
+    color: #4a148c;
+    font-weight: 600;
+}
+
+main .contact p span {
+    color: #4a148c;
+    font-weight: 400;
+}
+
+main .contact p {
+    color: rgb(94, 93, 93);
+}
+
+main label {
+    margin: 0;
+}
+
+main input,
+textarea {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    main .presentation {
+        padding: 6% 0;
+    }
+    main .presentation_text p {
+        padding-right: 10%;
+        font-size: 18px;
+    }
+    main h2 {
+        font-size: 2vw;
+    }
+    main .experience,
+    .formation {
+        padding: 5% 0;
+    }
+    main .competence,
+    .contact {
+        padding: 0;
+    }
+    main .contact h2 {
+        padding: 0;
+    }
+    main .contact {
+        padding: 5% 0;
+    }
+    main form {
+        padding-left: 5%;
+    }
+    main .competence ul {
+        width: 50%;
+    }
+    main .image {
+        height: 700px;
+    }
+}
