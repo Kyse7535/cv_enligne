@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     min-width: 450px;
 }
 
@@ -32,12 +32,16 @@ header .ligne {
 }
 
 header ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
     margin: 0;
 }
 
 header a {
     color: #fff;
     padding: 2px 0;
+    font-size: 2.4vw;
 }
 
 header a:hover {
@@ -163,7 +167,7 @@ textarea {
     margin-bottom: 15px;
 }
 
-input[type=submit] {
+input[type="submit"] {
     width: 30%;
     background-color: #000;
     color: #fff;
@@ -180,6 +184,15 @@ input[type=submit] {
     }
     main h2 {
         font-size: 2vw;
+    }
+    header ul {
+        display: block;
+        margin: 0;
+    }
+    header a {
+        color: #fff;
+        padding: 2px 0;
+        font-size: 16px;
     }
     main .experience,
     .formation {
