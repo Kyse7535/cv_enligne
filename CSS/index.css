@@ -2,24 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
 }
 
 body {
     font-family: "Poppins";
-    min-width: 450px;
 }
 
-.navbar {
-    background-color: #ce93d8;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.navbar li {
+.nav_bar li {
     display: inline-block;
     list-style: none;
-    padding: 3px 15px;
+    padding: 3px 10px;
 }
 
 header .ligne {
@@ -27,15 +19,20 @@ header .ligne {
     width: 100%;
 }
 
-.menu {
+.nav_bar {
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #ce93d8;
     text-align: center;
+    padding: 0;
 }
 
 header ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    margin: 0;
+    margin: 0 auto;
+    width: 90%;
 }
 
 header a {
@@ -60,6 +57,7 @@ main .ombre {
 
 main .image {
     height: 400px;
+    width: 100%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
@@ -187,7 +185,8 @@ input[type="submit"] {
     }
     header ul {
         display: block;
-        margin: 0;
+        margin: 0 auto;
+        padding: 0.5% 0;
     }
     header a {
         color: #fff;
