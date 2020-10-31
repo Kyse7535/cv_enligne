@@ -25,14 +25,15 @@ header .ligne {
     background-color: #ce93d8;
     text-align: center;
     padding: 0;
+    display: none;
 }
 
-header ul {
+.nav_bar ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
 }
 
 header a {
@@ -173,6 +174,12 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
+    .nav_mobile {
+        display: none;
+    }
+    .nav_bar {
+        display: block;
+    }
     main .presentation {
         padding: 6% 0;
     }
