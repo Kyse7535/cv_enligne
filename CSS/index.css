@@ -33,7 +33,7 @@ header .ligne {
     justify-content: space-around;
     flex-wrap: nowrap;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
 }
 
 header a {
